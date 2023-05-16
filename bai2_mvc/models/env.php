@@ -1,6 +1,6 @@
 <?php
 //cấu hình để kết nối tới CSDL
-const DBNAME = "we18105";
+const DBNAME = "wd18104";
 const DBUSER = "root";
 const DBPASS = "";
 const DBCHARSET = "utf8";
