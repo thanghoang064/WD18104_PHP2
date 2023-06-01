@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3ea10739-b8b9-42d8-b936-8822731aa838" name="Default Changelist" comment="update project" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2PiV5QvwRPgX8unA6YsofwnDY3g" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3ea10739-b8b9-42d8-b936-8822731aa838" name="Default Changelist" comment="" />
+      <created>1683939708578</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683939708578</updated>
+      <workItem from="1683939711881" duration="3301000" />
+      <workItem from="1684197813294" duration="4784000" />
+      <workItem from="1684373378131" duration="2616000" />
+      <workItem from="1684544225652" duration="4239000" />
+      <workItem from="1684801847640" duration="3898000" />
+      <workItem from="1684975767099" duration="3506000" />
+      <workItem from="1685020736416" duration="86000" />
+      <workItem from="1685580687687" duration="4483000" />
+    </task>
+    <task id="LOCAL-00001" summary="git">
+      <created>1683943546189</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683943546189</updated>
+    </task>
+    <task id="LOCAL-00002" summary="git">
+      <created>1684202775550</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684202775550</updated>
+    </task>
+    <task id="LOCAL-00003" summary="git">
+      <created>1684375658406</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1684375658406</updated>
+    </task>
+    <task id="LOCAL-00004" summary="git">
+      <created>1684548076895</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1684548076897</updated>
+    </task>
+    <task id="LOCAL-00005" summary="git">
+      <created>1684807657929</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1684807657929</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update project">
+      <created>1684979547810</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1684979547810</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="git" />
+    <MESSAGE value="update project" />
+    <option name="LAST_COMMIT_MESSAGE" value="update project" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="478" y="252" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1684805400891">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state x="478" y="252" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.838@0.23.1440.838" timestamp="1684805400891" />
+    <state x="544" y="371" key="NewPhpFileDialog" timestamp="1685583908895">
+      <screen x="0" y="25" width="1440" height="830" />
+    </state>
+    <state x="544" y="372" key="NewPhpFileDialog/0.23.1440.838@0.23.1440.838" timestamp="1685020764314" />
+    <state x="544" y="371" key="NewPhpFileDialog/0.25.1440.830@0.25.1440.830" timestamp="1685583908895" />
+    <state x="320" y="182" key="Vcs.Push.Dialog.v2" timestamp="1684979549679">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state x="320" y="182" key="Vcs.Push.Dialog.v2/0.23.1440.838@0.23.1440.838" timestamp="1684979549679" />
+  </component>
+</project>

@@ -1,4 +1,6 @@
 <?php
+echo phpinfo();
+die; ekjkwerjkwlr
 interface DiChuyen {
     // interface không phải là class cho nên nó sẽ không có thuộc tính và phương thức
     // như class bình thường
