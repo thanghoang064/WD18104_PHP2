@@ -1,13 +1,14 @@
 <?php
-include_once "models/Customer.php";
-include_once "models/Product.php";
-include_once "controllers/ProductController.php";
-include_once "controllers/CustomerController.php";
+//include_once "models/Customer.php";
+//include_once "models/Product.php";
+//include_once "controllers/ProductController.php";
+//include_once "controllers/CustomerController.php";
+require_once "vendor/autoload.php";
 //sử dụng từ khóa use để gọi namespace
-use Models\Product;
-use Models\Customer;
-use Controllers\ProductController;
-use Controllers\CustomerController;
+use App\Models\Product;
+use App\Models\Customer;
+use App\Controllers\ProductController;
+use App\Controllers\CustomerController;
 
 $product = new Product();
 $customer = new Customer();
