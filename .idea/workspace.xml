@@ -20,12 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ea10739-b8b9-42d8-b936-8822731aa838" name="Default Changelist" comment="update project">
+      <change afterPath="$PROJECT_DIR$/base_mvc/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_mvc/app/controllers/BaseController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_mvc/app/controllers/ProductController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_mvc/app/models/BaseModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_mvc/common/route.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_mvc/env.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_mvc/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo_nsp/controllers/CustomerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/demo_nsp/controllers/CustomerController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo_nsp/controllers/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/demo_nsp/controllers/ProductController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo_nsp/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/demo_nsp/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo_nsp/models/Customer.php" beforeDir="false" afterPath="$PROJECT_DIR$/demo_nsp/models/Customer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo_nsp/models/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/demo_nsp/models/Product.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +57,14 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/base_mvc/app/controllers" />
+      <recent name="$PROJECT_DIR$/base_mvc/common" />
+      <recent name="$PROJECT_DIR$/base_mvc" />
+      <recent name="$PROJECT_DIR$/base_mvc/app/models" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -72,7 +82,7 @@
       <workItem from="1685020736416" duration="86000" />
       <workItem from="1685580687687" duration="4483000" />
       <workItem from="1685639867327" duration="23000" />
-      <workItem from="1685752671323" duration="3458000" />
+      <workItem from="1685752671323" duration="8584000" />
     </task>
     <task id="LOCAL-00001" summary="git">
       <created>1683943546189</created>
@@ -116,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684979547810</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update project">
+      <created>1685846700474</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1685846700475</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,14 +161,15 @@
       <screen x="0" y="23" width="1440" height="838" />
     </state>
     <state x="478" y="252" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.838@0.23.1440.838" timestamp="1684805400891" />
-    <state x="544" y="371" key="NewPhpFileDialog" timestamp="1685583908895">
+    <state x="544" y="371" key="NewPhpFileDialog" timestamp="1685847773081">
       <screen x="0" y="25" width="1440" height="830" />
     </state>
     <state x="544" y="372" key="NewPhpFileDialog/0.23.1440.838@0.23.1440.838" timestamp="1685020764314" />
-    <state x="544" y="371" key="NewPhpFileDialog/0.25.1440.830@0.25.1440.830" timestamp="1685583908895" />
-    <state x="320" y="182" key="Vcs.Push.Dialog.v2" timestamp="1684979549679">
-      <screen x="0" y="23" width="1440" height="838" />
+    <state x="544" y="371" key="NewPhpFileDialog/0.25.1440.830@0.25.1440.830" timestamp="1685847773081" />
+    <state x="320" y="182" key="Vcs.Push.Dialog.v2" timestamp="1685846702021">
+      <screen x="0" y="25" width="1440" height="830" />
     </state>
     <state x="320" y="182" key="Vcs.Push.Dialog.v2/0.23.1440.838@0.23.1440.838" timestamp="1684979549679" />
+    <state x="320" y="182" key="Vcs.Push.Dialog.v2/0.25.1440.830@0.25.1440.830" timestamp="1685846702021" />
   </component>
 </project>
