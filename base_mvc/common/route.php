@@ -20,6 +20,9 @@ $router->get('/', function(){
 });
 // định nghĩa route list product
 $router->get('/list-product',[App\Controllers\ProductController::class,'index']);
+$router->get('/add-product',[App\Controllers\ProductController::class,'addProduct']);
+$router->post('/post-product',[App\Controllers\ProductController::class,'postProduct']);
+
 //đoạn cần quan tâm --------------
 // tạo 1 controller CustomerController và route trỏ đến
 // hàm index trong CustomerController
