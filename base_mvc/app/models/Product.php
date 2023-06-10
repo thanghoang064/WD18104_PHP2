@@ -14,4 +14,20 @@ class Product extends BaseModel {
         $this->setQuery($sql);
         return $this->execute([$id,$tenSP,$gia]);
     }
+    // lay chi tiet san pham
+    public function getDetailProduct($id) {
+        $sql = "select * from $this->table where id = ?";
+        $this->setQuery($sql);
+        return $this->loadRow([$id]);
+    }
+    public function updateProduct($id,$tenSp,$gia) {
+        $sql = "update $this->table set ten_sp = ?,gia = ? where id = ?";
+        $this->setQuery($sql);
+        return $this->execute([$tenSp,$gia,$id]);
+    }
+    public function deleteProduct($id) {
+        $sql = "delete from $this->table where id = ?";
+        $this->setQuery($sql);
+        return $this->execute([$id]);
+    }
 }

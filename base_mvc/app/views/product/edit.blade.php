@@ -10,18 +10,18 @@
     @if(isset($_SESSION['success']) && isset($_GET['msg']))
         <span style="color: green">{{ $_SESSION['success'] }}</span>
     @endif
-    <form action="{{ BASE_URL."post-product" }}" method="POST">
+    <form action="{{ BASE_URL."edit-product/".$product->id }}" method="POST" >
         <table>
             <tr>
                 <td>Tên sản phẩm</td>
-                <td><input type="text" name="ten_sp" value=""/></td>
+                <td><input type="text" name="ten_sp" value="{{ $product->ten_sp }}"/></td>
             </tr>
             <tr>
                 <td>Đơn giá</td>
-                <td><input type="text" name="don_gia" value=""/></td>
+                <td><input type="text" name="don_gia" value="{{ $product->gia }}"/></td>
             </tr>
             <tr>
-                <td><input type="submit" name="add" value="Thêm" /></td>
+                <td><input type="submit" name="edit" value="Sua" /></td>
             </tr>
         </table>
     </form>

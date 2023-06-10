@@ -22,7 +22,8 @@ $router->get('/', function(){
 $router->get('/list-product',[App\Controllers\ProductController::class,'index']);
 $router->get('/add-product',[App\Controllers\ProductController::class,'addProduct']);
 $router->post('/post-product',[App\Controllers\ProductController::class,'postProduct']);
-
+$router->get('/detail-product/{id}',[App\Controllers\ProductController::class,'detailProduct']);
+$router->post('/edit-product/{id}',[App\Controllers\ProductController::class,'editProduct']);
 //đoạn cần quan tâm --------------
 // tạo 1 controller CustomerController và route trỏ đến
 // hàm index trong CustomerController

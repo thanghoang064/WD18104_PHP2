@@ -19,6 +19,22 @@ class ProductController extends BaseController {
     public function addProduct() {
         return $this->render('product.add');
     }
+    public function detailProduct($id) {
+        // lay gia tri detail tu ben model product
+      $product =   $this->product->getDetailProduct($id);
+       return $this->render('product.edit',compact('product'));
+    }
+    public function editProduct($id) {
+
+        if(isset($_POST['edit'])) {
+
+            $result = $this->product->updateProduct($id,$_POST['ten_sp'],$_POST['don_gia']);
+            if ($result) {
+                redirect('success',"Sua sản phẩm thành công","detail-product/".$id);
+            }
+        }
+    }
+
     public function postProduct() {
         // khi người dùng click vào nút add
         if (isset($_POST['add'])) {
@@ -36,15 +52,17 @@ class ProductController extends BaseController {
             }
             if (count($errors) > 0 ){ // có lỗi
                 // push mảng lỗi vào trong session
-                $_SESSION['errors'] = $errors;
-                //nhảy về trang add-product
-                header("location:".BASE_URL."add-product");die;
+//                $_SESSION['errors'] = $errors;
+//                //nhảy về trang add-product
+//                header("location:".BASE_URL."add-product");die;
+                redirect('errors',$errors,"add-product");
             } else {
 
                 $result = $this->product->addProduct(NULL,$_POST['ten_sp'],$_POST['don_gia']);
                 if ($result) {
-                    $_SESSION['success'] = "Thêm sản phẩm thành công";
-                    header("location:".BASE_URL."add-product");die;
+//                    $_SESSION['success'] = "Thêm sản phẩm thành công";
+//                    header("location:".BASE_URL."add-product");die;
+                    redirect('success',"Thêm sản phẩm thành công","add-product");
                 }
             }
         }
