@@ -10,7 +10,7 @@
     @if(isset($_SESSION['success']) && isset($_GET['msg']))
         <span style="color: green">{{ $_SESSION['success'] }}</span>
     @endif
-    <form action="{{ BASE_URL."edit-product/".$product->id }}" method="POST" >
+    <form action="{{ route("edit-product/".$product->id) }}" method="POST" >
         <table>
             <tr>
                 <td>Tên sản phẩm</td>

@@ -20,3 +20,6 @@ function redirect($key,$msg,$route) {
     }
     header('location:'.BASE_URL.$route.'?msg='.$key);die;
 }
+function route($url) {
+    return BASE_URL.$url;
+}
